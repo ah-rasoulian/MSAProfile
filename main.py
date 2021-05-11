@@ -1,5 +1,12 @@
+pseudoCount = 1
+
+
 def main():
-    pass
+    n = int(input())
+    MSA = []
+    for i in range(n):
+        MSA.append(input())
+    long_string = input()
 
 
 if __name__ == '__main__':
